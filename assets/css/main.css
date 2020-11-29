@@ -1158,7 +1158,10 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: img {content:url("https://dsxbcsd4zpi23.cloudfront.net/bg_replace.jpg")};
+			background-image: url("https://dsxbcsd4zpi23.cloudfront.net/bg_replace.jpg");
+			/* main change cannot be recognized by Github desktop : ( */
+			/* https://dsxbcsd4zpi23.cloudfront.net/bg_replace.jpg */
+			/* bg_replace */
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
